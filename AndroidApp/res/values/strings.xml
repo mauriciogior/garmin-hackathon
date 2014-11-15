@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2014  Garmin International Ltd.
+Subject to Garmin SDK License Agreement and Wearables Application Developer Agreement.
+-->
+<resources>
+
+    <string name="app_name">Connect IQ Sample</string>
+    <string name="send_message">Send Message</string>
+    <string name="sdk_status">SDK Status: </string>
+    <string name="connection_status">Connection Status: </string>
+    <string name="device_names">Paired Devices: </string>
+    <string name="error_sending">Error sending message</string>
+    <string name="no_paired_devices">No paired devices</string>
+    <string name="initialized_format">Initialized.  Port: %1$d</string>
+    <string name="message_send_error_format">Error sending message to device (%1$s)</string>
+    <string name="message_sent">Message sent successfully</string>
+    <string name="connection_status_connected">Connected</string>
+    <string name="connection_status_not_connected">Not Connected</string>
+    <string name="connection_status_not_paired">Not Paired</string>
+    <string name="connection_status_unknown">Unknown</string>
+
+    <!-- Override for auto UI dialogs.   These are the default messages used by the SDK if you do not specify them in your own strings.xml file. -->
+    <string name="upgrade_needed_title">Upgrade Needed</string>
+    <string name="upgrade_needed_message">An upgrade to Garmin Connect Mobile is required to use this application. Would you like to upgrade now?</string>
+    <string name="upgrade_cancel">Cancel</string>
+    <string name="upgrade_yes">Upgrade</string>
+    <string name="install_needed_title">Additional App Required</string>
+    <string name="install_needed_message">Garmin Connect Mobile is required to use this application. Would you like to install it now?</string>
+    <string name="install_cancel">Cancel</string>
+    <string name="install_yes">Yes</string>
+
+</resources>
